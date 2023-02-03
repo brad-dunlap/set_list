@@ -10,7 +10,6 @@ RSpec.describe Artist do
 				@purple = @prince.songs.create!(title: 'Purple Rain', length: 845, play_count: 2222)
 				@beret = @prince.songs.create!(title: 'Raspberry Beret', length: 664, play_count: 1234)
 				@blue = @prince.songs.create!(title: 'Blue Rain', length: 1, play_count: 2222)
-
 			end
 
 			it 'returns the average song length' do
